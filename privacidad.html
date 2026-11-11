@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<!-- Sin rastreadores: la página no carga nada de afuera (ni fuentes, ni scripts, ni imágenes). -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="index, follow">
+<title>Política de privacidad · Psiccostudio</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fondo: #fbfaf7;
+    --texto: #1f2328;
+    --suave: #5b6168;
+    --linea: #e3e0d8;
+    --caja: #f2efe8;
+    --enlace: #1d5f8a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #16181b;
+      --texto: #e8e6e1;
+      --suave: #a3a7ad;
+      --linea: #2e3237;
+      --caja: #1f2226;
+      --enlace: #8cc4ea;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--linea); }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 1.2em; }
+  li { margin-bottom: 6px; }
+  .fecha { color: var(--suave); margin-bottom: 24px; }
+  .intro { font-size: 1.08rem; }
+  .resumen { background: var(--caja); border-radius: 12px; padding: 16px 20px 6px; margin: 24px 0; }
+  .resumen h2 { border: 0; margin-top: 0; padding-top: 0; }
+  a { color: var(--enlace); }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: .92em; background: var(--caja); padding: 1px 5px; border-radius: 4px; }
+  footer { color: var(--suave); font-size: .92rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Psiccostudio</h1>
+  <p class="fecha">Última actualización: 11 de noviembre de 2026</p>
+
+  <p class="intro">Psiccostudio guarda los datos de tu consulta solo en tu teléfono, cifrados, y no tiene servidor propio ni cuentas: nosotros no recibimos, vemos ni almacenamos información de tus pacientes.</p>
+
+  <section class="resumen">
+    <h2>En resumen</h2>
+    <ul>
+      <li>Tus datos y los de tus pacientes viven <strong>solo en tu teléfono</strong>, cifrados.</li>
+      <li>No hay cuentas, servidor propio, anuncios, estadísticas de uso ni informes de errores.</li>
+      <li>La app se conecta a internet para <strong>lo mínimo</strong>: descargar la tasa oficial del dólar y del euro (y, solo si tú lo conectas, guardar tu respaldo cifrado en Google Drive).</li>
+      <li>Si tú lo decides, puedes guardar un respaldo cifrado donde elijas. Sin tu contraseña de respaldo, nadie puede leerlo.</li>
+      <li><strong>Responsable:</strong> José Valecillos, contacto: psiccostudio@gmail.com.</li>
+    </ul>
+  </section>
+
+  <h2>Qué datos maneja la app y dónde se guardan</h2>
+  <p>Psiccostudio guarda lo que tú escribes o subes: pacientes y sus datos de contacto, citas, notas, documentos (PDF, imágenes y Word), precios, cobros y montos, tu perfil y tus ajustes. Todo se guarda en una base de datos cifrada dentro de tu teléfono; la llave de cifrado queda en el almacenamiento seguro de Android (Keystore) y no sale del aparato. Los documentos se cifran además uno por uno.</p>
+  <p><strong>No tenemos acceso</strong> a esa información y no la recibimos en ningún momento. Como la app trata datos de salud de tus pacientes, tú eres quien responde por ellos ante tus pacientes y ante las normas de tu profesión, incluido pedir su consentimiento. Psiccostudio es una herramienta para guardarlos de forma segura.</p>
+
+  <h2>Conexión a internet: tasas del BCV</h2>
+  <p>La app descarga la tasa del dólar y del euro, con su fecha valor, una vez al día. Pide la página del Banco Central de Venezuela (<code>bcv.org.ve</code>) y, si falla, a DolarAPI (<code>ve.dolarapi.com</code>), que copia la tasa oficial. Son las únicas direcciones, además de Google Drive si lo conectas, que la app puede consultar.</p>
+  <ul>
+    <li><strong>Qué se envía:</strong> solo el pedido de la página. Ningún dato tuyo ni de tus pacientes, sin identificadores ni cookies.</li>
+    <li><strong>Lo que ven esos servidores:</strong> como en cualquier conexión a internet, la dirección IP de tu teléfono y la hora. Puedes consultar la política de DolarAPI en dolarapi.com.</li>
+    <li><strong>Conexión segura:</strong> solo https, con verificación de certificado.</li>
+    <li><strong>Cómo apagarla:</strong> Ajustes › Cobros › Tasa del bolívar › "Actualizar sola cada día". También puedes escribir la tasa a mano.</li>
+  </ul>
+
+  <h2>Respaldos, exportaciones y Google Drive</h2>
+  <ul>
+    <li><strong>Respaldo cifrado:</strong> es un archivo que se cifra con una contraseña que tú eliges y que tú guardas donde decidas. No la conocemos ni podemos recuperarla: si la olvidas, el archivo no se puede abrir.</li>
+    <li><strong>Exportar finanzas:</strong> crea un PDF o CSV <strong>sin cifrar</strong>, con nombres y montos, solo cuando tú lo pides, y lo entrega al menú "Compartir" del teléfono. Lo que ocurra después depende de la aplicación que elijas. La app borra su propia copia a los 5 minutos, o la próxima vez que abras la app.</li>
+    <li><strong>Abrir un documento en otra app (Word o Docs):</strong> el archivo pasa temporalmente a esa aplicación, bajo sus propias reglas, y los cambios vuelven a Psiccostudio.</li>
+    <li><strong>Recordatorios:</strong> los avisos se programan en el teléfono, con texto neutro que no revela datos clínicos.</li>
+    <li><strong>Google Drive</strong> (solo si esta función está incluida en la versión publicada): si conectas tu cuenta, la app sube el mismo respaldo cifrado a una carpeta "Psiccostudio" de tu propio Drive. Usa el permiso <code>drive.file</code>, que solo permite ver los archivos que la app creó. Para mostrarte qué cuenta está conectada, la app ve el correo de esa cuenta. Guarda las 3 copias más recientes y borra las más viejas, solo las que ella misma creó. Google recibe el archivo ya cifrado y no puede leerlo sin tu contraseña. Puedes desconectar tu cuenta en cualquier momento desde la app o desde la configuración de tu cuenta de Google. El tratamiento de ese archivo en Drive se rige por la política de privacidad de Google.</li>
+  </ul>
+  <p><strong>Mensajes de WhatsApp y llamadas:</strong> solo cuando tú tocas el botón, el número del paciente y el texto del mensaje (nombre, fecha y hora) pasan a WhatsApp o al marcador del teléfono, bajo sus propias reglas. Si WhatsApp no está instalado, se abre el navegador con esos datos en la dirección.</p>
+
+  <h2>Permisos, seguridad, tus derechos y contacto</h2>
+  <p><strong>Permisos de Android:</strong> internet (para las tasas y, si lo conectas, Google Drive), notificaciones (recordatorios), huella (o rostro, solo si tu teléfono lo ofrece con seguridad fuerte) del sistema (para desbloquear; la app no recibe ni guarda tu huella) y el selector de archivos del sistema (para subir documentos y guardar respaldos). La app bloquea las capturas en las pantallas con datos de pacientes.</p>
+  <p><strong>Seguridad:</strong> PIN protegido con Argon2id, cifrado AES-256, bloqueo automático y espera creciente tras intentos fallidos. Ningún sistema es infalible: guarda tus respaldos y tu contraseña con cuidado.</p>
+  <p><strong>Tus derechos:</strong> como los datos están solo en tu teléfono, tú los controlas. Puedes editarlos, exportarlos o borrarlos desde la app. La opción "Borrar todo", en "¿Olvidaste tu PIN?" de la pantalla del PIN, elimina todos los datos del teléfono, y desinstalar la app también. No podemos recuperar datos borrados.</p>
+  <p><strong>Menores:</strong> Psiccostudio es una herramienta para profesionales adultos y no está dirigida a menores de edad.</p>
+  <p><strong>Anuncios y terceros:</strong> no hay publicidad, ni librerías de análisis o de informes de errores, y no compartimos ni vendemos datos.</p>
+  <p><strong>Cambios:</strong> si esta política cambia, publicaremos la nueva versión con su fecha y, si el cambio es importante, avisaremos dentro de la app.</p>
+
+  <footer>
+    <p><strong>Contacto:</strong> psiccostudio@gmail.com. Última actualización: 11 de noviembre de 2026.</p>
+  </footer>
+</main>
+</body>
+</html>
