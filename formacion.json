@@ -18,6 +18,12 @@
       "dirigido_a": "Psicólogos y estudiantes de psicología",
       "area": "clinica",
       "descripcion": "Actividad de EJEMPLO para probar la app. No es real: no escribas a este correo.",
+      "imagenes": [
+        "ejemplo-afiche.png",
+        "ejemplo-programa.png",
+        "ejemplo-aula.png"
+      ],
+      "imagen_texto": "Afiche de ejemplo del taller",
       "publicado": "2026-11-16",
       "vence": "2026-12-05",
       "destacado": false,
@@ -59,7 +65,7 @@
       "hora": "18:00",
       "horas": 6,
       "precio": "25 USD (precio de ejemplo)",
-      "area": "clinica",
+      "area": "psicoterapia",
       "descripcion": "Actividad de EJEMPLO marcada como cancelada. No es real.",
       "publicado": "2026-11-16",
       "vence": "2026-12-15",
@@ -68,8 +74,9 @@
     },
     {
       "id": "ejemplo-curso-enlace-whatsapp",
-      "titulo": "EJEMPLO Curso de evaluación neuropsicológica",
-      "tipo": "curso",
+      "titulo": "EJEMPLO Diplomado en evaluación neuropsicológica",
+      "tipo": "otro",
+      "tipo_otro": "Diplomado",
       "dicta": "Ponente de ejemplo",
       "fpv": "67890",
       "modalidad": "mixta",
@@ -87,6 +94,9 @@
       "dirigido_a": "Psicólogos",
       "area": "neuropsicologia",
       "descripcion": "Actividad de EJEMPLO mixta (parte en línea y parte presencial), con página y WhatsApp. No es real: no escribas a este número.",
+      "imagenes": [
+        "ejemplo-diplomado.png"
+      ],
       "publicado": "2026-11-16",
       "vence": "2027-01-12",
       "destacado": false,
