@@ -1,0 +1,81 @@
+{
+  "formato": 1,
+  "publicaciones": [
+    {
+      "id": "2026-11-taller-crisis",
+      "titulo": "Primeros auxilios psicológicos en crisis",
+      "tipo": "taller",
+      "dicta": "Lcda. Ana Ficticia",
+      "fpv": "12345",
+      "modalidad": "online",
+      "lugar": "Por Zoom",
+      "enlace": "https://ejemplo.com/taller-crisis",
+      "whatsapp": "+58 414 000 0000",
+      "correo": "ana@ejemplo.com",
+      "inicio": "2026-11-28",
+      "hora": "09:00",
+      "horas": 8,
+      "precio": "20 USD",
+      "certificado": "Certificado de asistencia",
+      "avalado_por": "Colegio de Psicólogos (ejemplo)",
+      "dirigido_a": "Psicólogos y estudiantes de psicología",
+      "area": "clinica",
+      "descripcion": "Herramientas prácticas para acompañar a una persona en las primeras horas de una crisis.\nCupo limitado a 30 personas.",
+      "imagenes": [
+        "taller-crisis.jpg",
+        "taller-crisis-programa.jpg"
+      ],
+      "imagen_texto": "Afiche del taller: título y fecha sobre fondo verde",
+      "publicado": "2026-11-15",
+      "vence": "2026-11-29",
+      "destacado": false,
+      "cancelado": false
+    },
+    {
+      "id": "2026-12-masterclass-orientacion",
+      "titulo": "Orientación vocacional en el liceo",
+      "tipo": "master_class",
+      "dicta": "Dr. Carlos Inventado",
+      "profesion": "Psicólogo educativo",
+      "modalidad": "presencial",
+      "lugar": "Colegio de Psicólogos (ejemplo)",
+      "entidad": "Distrito Capital",
+      "whatsapp": "+58 412 000 0000",
+      "inicio": "2026-12-05",
+      "hora": "14:00",
+      "horas": 3,
+      "precio": "Gratis para agremiados",
+      "dirigido_a": "Psicólogos y docentes",
+      "area": "educativa",
+      "publicado": "2026-11-15",
+      "vence": "2026-12-05"
+    },
+    {
+      "id": "2027-01-diplomado-neuro",
+      "titulo": "Diplomado en evaluación neuropsicológica",
+      "tipo": "otro",
+      "tipo_otro": "Diplomado",
+      "dicta": "Mgtr. Elena Supuesta",
+      "fpv": "67890",
+      "modalidad": "mixta",
+      "lugar": "Aula virtual y sede de ejemplo",
+      "entidad": "Lara",
+      "correo": "diplomado@ejemplo.com",
+      "inicio": "2027-01-12",
+      "hora": "19:00",
+      "horas": 120,
+      "precio": "300 USD",
+      "certificado": "Certificado con nota",
+      "dirigido_a": "Psicólogos",
+      "area": "neuropsicologia",
+      "imagenes": [
+        "diplomado-afiche.jpg"
+      ],
+      "imagen_texto": "Afiche del diplomado",
+      "publicado": "2026-11-15",
+      "vence": "2027-01-12",
+      "destacado": false,
+      "cancelado": false
+    }
+  ]
+}
