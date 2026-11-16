@@ -53,7 +53,7 @@
 <body>
 <main>
   <h1>Política de privacidad de Psiccostudio</h1>
-  <p class="fecha">Última actualización: 15 de noviembre de 2026</p>
+  <p class="fecha">Última actualización: 16 de noviembre de 2026</p>
 
   <p class="intro">Psiccostudio guarda los datos de tu consulta solo en tu teléfono, cifrados, y no tiene servidor propio: nosotros no recibimos, vemos ni almacenamos información de tus pacientes. Puedes iniciar sesión con Google si quieres, pero es opcional y tu nombre y tu correo se quedan en tu teléfono.</p>
 
@@ -63,7 +63,7 @@
       <li>Tus datos y los de tus pacientes viven <strong>solo en tu teléfono</strong>, cifrados.</li>
       <li>No hay servidor propio ni anuncios, y nosotros no recogemos estadísticas de uso ni informes de errores. La única excepción es de Google: su librería de pagos puede enviarle datos de diagnóstico (lo explicamos abajo).</li>
       <li>Iniciar sesión con Google es <strong>opcional</strong>. Solo guardamos tu nombre y tu correo, en tu teléfono.</li>
-      <li>La app se conecta a internet para <strong>lo mínimo</strong>: descargar la tasa oficial del dólar y del euro, preguntarle a Google Play si tienes el plan Pro y, solo si tú lo conectas, guardar o traer tu respaldo cifrado de tu Google Drive.</li>
+      <li>La app se conecta a internet para <strong>lo mínimo</strong>: descargar la tasa oficial del dólar y del euro, descargar la lista pública de cursos de Formación cuando abres esa pestaña, preguntarle a Google Play si tienes el plan Pro y, solo si tú lo conectas, guardar o traer tu respaldo cifrado de tu Google Drive.</li>
       <li>El plan Pro se paga con una suscripción de <strong>Google Play</strong>: el pago lo procesa Google y nosotros no vemos tus datos de pago.</li>
       <li>Si tú lo decides, puedes guardar un respaldo cifrado donde elijas. Sin tu contraseña de respaldo, nadie puede leerlo.</li>
       <li><strong>Responsable:</strong> José Valecillos, contacto: psiccostudio@gmail.com.</li>
@@ -75,13 +75,25 @@
   <p><strong>No tenemos acceso</strong> a esa información y no la recibimos en ningún momento. Como la app trata datos de salud de tus pacientes, tú eres quien responde por ellos ante tus pacientes y ante las normas de tu profesión, incluido pedir su consentimiento. Psiccostudio es una herramienta para guardarlos de forma segura.</p>
 
   <h2>Conexión a internet: tasas del BCV</h2>
-  <p>La app descarga la tasa del dólar y del euro, con su fecha valor, una vez al día por su cuenta, y también cada vez que tocas "Actualizar ahora" o "Actualizar tasa". Viene encendida al instalar. Pide la página del Banco Central de Venezuela (<code>bcv.org.ve</code>) y, si falla, a DolarAPI (<code>ve.dolarapi.com</code>), que copia la tasa oficial. Son las únicas direcciones que consulta el código propio de la app, además de Google Drive si lo conectas. Aparte, las piezas de Google que la app usa (inicio de sesión y suscripción de Google Play) se comunican con Google por su cuenta, como se explica en sus secciones.</p>
+  <p>La app descarga la tasa del dólar y del euro, con su fecha valor, una vez al día por su cuenta, y también cada vez que tocas "Actualizar ahora" o "Actualizar tasa". Viene encendida al instalar. Pide la página del Banco Central de Venezuela (<code>bcv.org.ve</code>) y, si falla, a DolarAPI (<code>ve.dolarapi.com</code>), que copia la tasa oficial. Son las únicas direcciones que consulta el código propio de la app, además de <code>psiccostudio.github.io</code> para Formación (ver abajo) y de Google Drive si lo conectas. Aparte, las piezas de Google que la app usa (inicio de sesión y suscripción de Google Play) se comunican con Google por su cuenta, como se explica en sus secciones.</p>
   <ul>
     <li><strong>Qué se envía:</strong> solo el pedido de la página. Ningún dato tuyo ni de tus pacientes, sin identificadores ni cookies.</li>
     <li><strong>Lo que ven esos servidores:</strong> como en cualquier conexión a internet, la dirección IP de tu teléfono y la hora. Puedes consultar la política de DolarAPI en dolarapi.com.</li>
     <li><strong>Conexión segura:</strong> solo https, con verificación de certificado.</li>
     <li><strong>Cómo apagarla:</strong> Ajustes › Cobros › Tasa del bolívar › "Actualizar sola cada día". También puedes escribir la tasa a mano.</li>
   </ul>
+
+  <h2>Formación: cursos, talleres y diplomados</h2>
+  <p>La pestaña Formación muestra actividades para psicólogos que Psiccostudio difunde. Para eso, la app descarga una lista pública y sus imágenes desde <code>psiccostudio.github.io</code> (un sitio alojado en GitHub, de Microsoft). No envía nada tuyo ni de tus pacientes: solo pide esos archivos.</p>
+  <ul>
+    <li><strong>Cuándo se conecta:</strong> al abrir la pestaña Formación, como mucho una vez al día, y cada vez que tocas "Actualizar". Las imágenes se descargan solo cuando se van a ver. Con datos móviles no se descargan imágenes, salvo que actives Ajustes › Formación › "Imágenes con datos móviles" o toques "Descargar ahora".</li>
+    <li><strong>Lo que ve GitHub:</strong> como en cualquier conexión a internet, la dirección IP de tu teléfono y la hora. No ve tus datos ni lo que haces en la app, pero como las imágenes se piden cuando van a mostrarse, puede saber cuáles se descargaron a tu teléfono. Puedes consultar la <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad de GitHub</a>.</li>
+    <li><strong>Conexión segura:</strong> solo https, con verificación de certificado.</li>
+    <li><strong>Lo que se guarda en tu teléfono:</strong> la última lista y las imágenes vistas, en una carpeta privada de la app, sin cifrar porque es información pública. No van en tu respaldo cifrado. "Borrar todo" las elimina.</li>
+    <li><strong>Cómo evitarla:</strong> si no abres la pestaña Formación, la app no se conecta a GitHub.</li>
+    <li><strong>Contactar a un organizador o compartir:</strong> solo cuando tú tocas el botón, la app te avisa adónde vas y abre WhatsApp, tu correo o el navegador con los datos de esa actividad, bajo las reglas de esas apps. "Compartir" pasa solo el texto de la actividad al menú "Compartir" de tu teléfono.</li>
+  </ul>
+  <p><strong>Si publicas una actividad:</strong> "Publicar un curso" abre tu app de correo con un mensaje para psiccostudio@gmail.com; nada se envía hasta que tú lo mandas. Con los datos que nos envíes (nombre de quien dicta, N.º FPV o profesión, contactos, imágenes y datos de la actividad) publicamos la actividad, que queda <strong>visible para cualquier persona que use la app</strong>. Solo la publicamos si en el correo nos autorizas a hacerlo. Guardamos ese correo mientras la actividad esté publicada y <strong>12 meses más</strong> como constancia de tu autorización; después lo borramos. Puedes pedirnos en cualquier momento que corrijamos o retiremos tu actividad escribiendo a psiccostudio@gmail.com: la quitamos de la lista y desaparece de la app la próxima vez que cada teléfono la actualice. Ten en cuenta que la lista se publica en un repositorio público de GitHub: <strong>las versiones anteriores del archivo pueden seguir visibles en el historial público de GitHub</strong> aunque la actividad ya no aparezca en la app. Por eso, incluye solo datos que quieras hacer públicos.</p>
 
   <h2>Cuenta de Google (opcional)</h2>
   <p>Puedes tocar "Continuar con Google" en Ajustes (o al instalar la app en un teléfono nuevo). Es <strong>opcional</strong>: la agenda, los pacientes, las notas y las finanzas funcionan igual sin cuenta.</p>
@@ -112,15 +124,15 @@
   </ul>
 
   <h2>Permisos, seguridad, tus derechos y contacto</h2>
-  <p><strong>Permisos de Android:</strong> internet (para las tasas y, si lo usas, Google Drive), facturación de Google Play (la suscripción Pro) y el estado de la red (lo agrega esa librería), notificaciones (recordatorios), iniciar al encender el teléfono (para volver a programar los recordatorios), vibrar, huella (o rostro, solo si tu teléfono lo ofrece con seguridad fuerte) del sistema (para desbloquear; la app no recibe ni guarda tu huella) y el selector de archivos del sistema (para subir documentos y guardar respaldos). La app <strong>no</strong> pide acceso a tus contactos ni a las cuentas guardadas en tu teléfono. La app bloquea las capturas en las pantallas con datos de pacientes.</p>
+  <p><strong>Permisos de Android:</strong> internet (para las tasas, Formación y, si lo usas, Google Drive), facturación de Google Play (la suscripción Pro), el estado de la red (lo agrega esa librería, y la app lo usa también para saber si estás con datos móviles antes de bajar imágenes de Formación), notificaciones (recordatorios), iniciar al encender el teléfono (para volver a programar los recordatorios), vibrar, huella (o rostro, solo si tu teléfono lo ofrece con seguridad fuerte) del sistema (para desbloquear; la app no recibe ni guarda tu huella) y el selector de archivos del sistema (para subir documentos y guardar respaldos). La app <strong>no</strong> pide acceso a tus contactos ni a las cuentas guardadas en tu teléfono. La app bloquea las capturas en las pantallas con datos de pacientes.</p>
   <p><strong>Seguridad:</strong> PIN protegido con Argon2id, cifrado AES-256, bloqueo automático y espera creciente tras intentos fallidos. El PIN controla la entrada a la app; los datos se cifran con una llave al azar guardada en el almacenamiento seguro de Android, no con el PIN. Ningún sistema es infalible: guarda tus respaldos y tu contraseña con cuidado.</p>
   <p><strong>Tus derechos:</strong> como los datos están solo en tu teléfono, tú los controlas. Puedes editarlos, exportarlos o borrarlos desde la app. La opción "Borrar todo", en "¿Olvidaste tu PIN?" de la pantalla del PIN, elimina todos los datos del teléfono (también cierra la sesión de Google), y desinstalar la app también. No podemos recuperar datos borrados. Las copias que hayas guardado en tu Google Drive las gestionas tú desde tu Drive.</p>
   <p><strong>Menores:</strong> Psiccostudio es una herramienta para profesionales adultos y no está dirigida a menores de edad.</p>
-  <p><strong>Anuncios y terceros:</strong> no hay publicidad ni librerías de análisis o de informes de errores nuestras, y no compartimos ni vendemos datos. Los únicos terceros son: el Banco Central de Venezuela y DolarAPI (las tasas, que vienen encendidas y puedes apagar), Google Play (la consulta de la suscripción, que ocurre sola al abrir la app), Google si tú lo activas (inicio de sesión y Drive), y las aplicaciones a las que decidas pasar un archivo o un mensaje.</p>
+  <p><strong>Anuncios y terceros:</strong> no hay publicidad ni librerías de análisis o de informes de errores nuestras, y no compartimos ni vendemos datos. Los únicos terceros son: el Banco Central de Venezuela y DolarAPI (las tasas, que vienen encendidas y puedes apagar), GitHub, de Microsoft (aloja la lista pública de cursos de Formación y solo se consulta al abrir esa pestaña), Google Play (la consulta de la suscripción, que ocurre sola al abrir la app), Google si tú lo activas (inicio de sesión y Drive), y las aplicaciones a las que decidas pasar un archivo o un mensaje.</p>
   <p><strong>Cambios:</strong> si esta política cambia, publicaremos la nueva versión con su fecha y, si el cambio es importante, avisaremos dentro de la app.</p>
 
   <footer>
-    <p><strong>Contacto:</strong> psiccostudio@gmail.com. Última actualización: 15 de noviembre de 2026.</p>
+    <p><strong>Contacto:</strong> psiccostudio@gmail.com. Última actualización: 16 de noviembre de 2026.</p>
   </footer>
 </main>
 </body>
